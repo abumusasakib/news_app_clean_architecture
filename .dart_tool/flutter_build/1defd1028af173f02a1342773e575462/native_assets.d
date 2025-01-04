@@ -1,0 +1,1 @@
+ D:\\work\\Celloscope\ Ltd\\news_app_clean_architecture\\.dart_tool\\flutter_build\\1defd1028af173f02a1342773e575462\\native_assets.yaml: 

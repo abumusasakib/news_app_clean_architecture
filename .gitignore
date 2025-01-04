@@ -1,0 +1,58 @@
+# General OS-specific files
+.DS_Store                # macOS system files
+*.log                    # Log files
+*.swp                    # Swap files (e.g., from Vim)
+*.class                  # Java class files
+*.pyc                    # Compiled Python files
+
+# IDE-specific files
+# IntelliJ/Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/                   # IntelliJ IDEA project files
+
+# VS Code
+.vscode/                 # Uncomment if you want to ignore VS Code config files
+
+# Other Editors
+.atom/                   # Atom editor files
+.history                 # Common editor history files
+
+# Version control directories
+.svn/                    # Subversion directories
+
+# Flutter/Dart-related files
+.dart_tool/              # Dart tool files
+.flutter-plugins         # Flutter plugins
+.flutter-plugins-dependencies
+.pub-cache/              # Pub package cache
+.pub/                    # Pub package lock files
+/build/                  # Generated build files
+**/doc/api/              # Generated documentation
+
+# Flutter iOS-specific files
+**/ios/Flutter/.last_build_id
+
+# Flutter Symbolication files
+app.*.symbols            # Debug symbol files
+
+# Flutter Obfuscation files
+app.*.map.json           # Mapping files for obfuscation
+
+# Android Studio-specific files
+/android/app/debug       # Debug build files
+/android/app/profile     # Profile build files
+/android/app/release     # Release build files
+
+# FVM-related files
+.fvm/                    # Flutter Version Manager cache
+
+# Environment files
+.env                     # Environment variables file (API keys, secrets)
+
+# Miscellaneous files
+.build/                  # Temporary build files
+.buildlog/               # Build log files
+migrate_working_dir/     # Migration-related files
+
